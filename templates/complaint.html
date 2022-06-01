@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename="css/style7.css") }}">
+    <script src="{{ url_for('static',filename="js/script.js")}}" defer></script>
+    <title>Makbool-File Complaint</title>
+  </head>
+  <body>
+	  <form id="cform"action="{{url_for('complaint')}}" method="post" class="form">
+      <h1 class="text-center">File Your Complaint:</h1>
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress-step progress-step-active" data-title="Personal Info."></div>
+        <div class="progress-step" data-title="Complaint Type."></div>
+        <div class="progress-step" data-title="Documents."></div>
+      </div>
+
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <label for="username">Applicant Name:</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="input-group">
+          <label for="dob">Applicant DOB:</label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <div class="input-group">
+          <label for="ID">Applicant Phone:</label>
+          <input type="number" name="ID" id="ID" />
+        </div>
+
+
+          <label for="upload_doc">Upload Crime Proof</label>
+          <input type="file" name="upload_doc" id="upload_doc">
+        
+
+
+        <div class="input-group">
+          <label for="position">Father's Name:</label>
+          <input type="text" name="position" id="position" />
+        </div>
+        <div class="input-group">
+          <label for="Area">Area/Block:</label>
+          <input type="text" name="Area" id="Area" />
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="phone">Complaint type:</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="input-group">
+          <label for="kuch">Description:</label>
+          <input type="text" name="kuch" id="kuch" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="proof">Add title and Upload proof:</label>
+          <input type="text" name="proof" id="proof" />
+        </div>
+        
+          <input type="file" name="upload_proof">
+        
+        <div class="input-group">
+          <label for="GID">Govt. id:</label>
+          <input type="number" name="GID" id="GID" />
+        </div>
+        <div class="input-group">
+          <label for="other">Any Specific?:</label>
+          <input type="text" name="other" id="other" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+	  <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      
+    </form>
+
+    <button type="submit"  form="cform" value="Submit">Submit</button>
+  </body>
+</html>

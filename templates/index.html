@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Makbool-project</title>
+	<link rel="shortcut icon" href="#"/>	
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename="css/style.css") }}">
+</head>
+<body style="background-color:grey">
+
+	<header>
+		<div class="main">
+				<div class="logo">
+					<img src="{{ url_for('static',filename="img/logo.png") }}">				
+				</div>
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="{{url_for('map')}}">Maps</a></li>
+				<li><a href="https://unsplash.com/s/photos/indian-police">Gallery</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="{{url_for('contact')}}">Contact</a></li>
+			</ul>
+		</div>
+		<div class="title">
+			<h1>VPS [Virtual Police Station]</h1>
+		</div>
+		<div class="first">
+			<h2>About Virtual Police Station:</h2>
+		</div>
+		<div class="second">
+			<h3>1 minute read</h3>
+		</div>
+		
+		<div class="six">
+			<h7>iv) Simultaneously the Officer-In-Charge of the Police Station is alerted by the system to initiate action on the allegation.</h7>
+		</div>
+		<div class="seven">
+			<h8>v) Before submitting the request, Please verify the same. Once you submit, the request will not be editable.</h8>
+		</div>
+		<div class="eight">
+			<h9>vi) After submission of the request you will be alerted by the system by SMS along with Service Request No</h9>
+		</div>
+		<div class="nine">
+			<h10>vii) If you are new to Citizen Portal, click to<a href={{url_for('register')}}> Register</a></h10>
+		</div>
+		<div class="ten">
+			<h11>viii) If you are an existing user to Citizen Portal, click to<a href="{{url_for('login')}}"> Login.</a></h11>
+		</div>
+		<div class="elev">
+			<h12>i) Request for e-FIR is among one of the citizen services provided by  Police under CCTNS Project.</h12>
+		</div>
+		<div class="twlv">
+			<h13>i) To avail the service, Citizen has to log in to the Portal. If the Citizen is new to the Portal he has to register with the Portal which is a one-time activity.</h13>
+		</div>
+		<div class="thrtn">
+			<h14>ii) While filling the request form, please fill at least all the mandatory fields (*) along with Personal details, address, contact number and purpose of applying the services properly.</h14>
+		</div>
+		<div class="fort">
+			<h15>maqbulshah25@gmail.com</h15>
+		</div>
+		<div class="sixt">
+			<h16>satyamshuklamba@gmail.com</h16>
+		</div>
+		<div class="footer">
+			<img src="{{ url_for('static',filename="img/footer.png") }}">				
+		</div>
+		<div class="button">
+			<a href={{url_for('adminlogin')}}  class="btn">File Complaint</a>
+			<a href={{url_for('adminlogin')}} class="btn">Track Complaint</a>
+			<a href="#" class="btn">Learn More</a>
+		</div>
+	</header>
+</body>
+<html>
