@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url({{url_for("static",filename="img/favicon.ico") }});
+	height: 125vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 45px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	margin-top: 20px;
+}
+.footer img{
+	float: left;
+	width: 1500px;
+	height: auto;
+	margin-top: 700px;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+ 
+.title h1{
+	color: #fff;
+	font-size: 50px;
+
+}
+
+.first{
+	position: absolute;
+	top: 50%;
+	left: 17%;
+	text-decoration-line: underline;
+	transform: translate(-50%,-50%);
+}
+ 
+.first h2{
+	color: #fff;
+	font-size: 22px;
+
+}
+
+.second{
+	position: absolute;
+	top: 54%;
+	left: 9%;
+	transform: translate(-50%,-50%);
+}
+ 
+.second h3{
+	color: #fff;
+	font-size: 10px;
+
+}
+
+.six{
+	position: absolute;
+	top: 86.3%;
+	left: 37.8%;
+	transform: translate(-50%,-50%);
+}
+ 
+.six h7{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.seven{
+	position: absolute;
+	top: 93.7%;
+	left: 35.4%;
+	transform: translate(-50%,-50%);
+}
+ 
+.seven h8{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.eight{
+	position: absolute;
+	top: 101%;
+	left: 34.8%;
+	transform: translate(-50%,-50%);
+}
+ 
+.eight h9{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.nine{
+	position: absolute;
+	top: 108.5%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+ 
+.nine h10{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.ten{
+	position: absolute;
+	top: 116%;
+	left: 22.2%;
+	transform: translate(-50%,-50%);
+}
+ 
+.ten h11{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.elev{
+	position: absolute;
+	top: 60%;
+	left: 34.5%;
+	transform: translate(-50%,-50%);
+}
+ 
+.elev h12{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.twlv{
+	position: absolute;
+	top: 68.5%;
+	left: 37.8%;
+	transform: translate(-50%,-50%);
+}
+ 
+.twlv h13{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.thrtn{
+	position: absolute;
+	top: 77.5%;
+	left: 37.8%;
+	transform: translate(-50%,-50%);
+}
+ 
+.thrtn h14{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.fort{
+	position: absolute;
+	top: 10%;
+	left: 21%;
+	transform: translate(-50%,-50%);
+}
+ 
+.fort h15{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.sixt{
+	position: absolute;
+	top: 13%;
+	left: 22%;
+	transform: translate(-50%,-50%);
+}
+ 
+.sixt h16{
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.button{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
